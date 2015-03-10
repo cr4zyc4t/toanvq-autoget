@@ -92,7 +92,7 @@ public class Autoget {
 	private void resetLink() {
 		String reply = makeRequest(reset_link_url);
 		if ((reply != null) && reply.equals("FINISH")) {
-			runLog("FINISH " + Tool.getCurrentDate("yyyy-MM-dd H:ms:ss") + " , DELAY " + delay_time + "s \r\n \r\n");
+			runLog("FINISH " + Tool.getCurrentDate("yyyy-MM-dd H:mm:ss") + " , DELAY " + delay_time + "s \r\n \r\n");
 			
 			try {
 				TimeUnit.SECONDS.sleep(delay_time);
