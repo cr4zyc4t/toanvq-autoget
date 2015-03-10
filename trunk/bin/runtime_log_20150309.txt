@@ -1,0 +1,7 @@
+Start - 09/03/2015
+Get news url: http://content.amobi.vn/qplayvn/getnewsapi/getnews
+Reset link url: http://content.amobi.vn/qplayvn/getnewsapi/resetlink
+Server report url: http://content.amobi.vn/service/autoget-log
+Delay repeat time: 3600s
+Wait connection time: 60s
+-------------------------------------
